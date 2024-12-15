@@ -18,6 +18,8 @@ chrome.runtime.onMessage.addListener((request, sender, response) => {
   }
 });
 
+// doing some github testing
+
 function injectApp() {
   const newDiv = document.createElement('div');
   newDiv.setAttribute('id', 'chrome-extension-react-app');
